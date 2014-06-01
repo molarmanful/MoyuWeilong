@@ -111,7 +111,7 @@
 
 */
 
-.cube /*.cubelet >*/ .face.faceTransparent { background-color: transparent; }
+.cube /*.cubelet >*/ .face.faceTransparent { background-color: DarkBlue; }
 
 
 /*
