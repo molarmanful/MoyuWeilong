@@ -266,7 +266,7 @@ function createCube(){
 	//  Now, after all that math and choreography
 	//  we should probably actually draw the cube to somewhere!
 
-	document.getElementById( 'container' ).appendChild( cube.renderer.domElement )
+	document.getElementById( 'containerforcube' ).appendChild( cube.renderer.domElement )
 
 
 	//  Be default the Cube Id labels are zero-indexed.
