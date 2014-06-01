@@ -27,9 +27,11 @@ body, h1, h2 {
 }
 #directions {
   position: absolute;
-  top: 105%;
+  top: 0px;
   background-color: LightGray;
   color: Black;
   font-family: Comfortaa;
   font-size: 20px;
+  display: none;
+  width: toggle;
 }
