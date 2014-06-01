@@ -32,7 +32,7 @@ $(document).ready(function(){
 	cube.autoRotate = false	
 	cube.cubelets.forEach( function( cubelet ){
 		if(cubelet.type === 'center' || cubelet.type === 'core'){
-			cubelet.setOpacity(0);
+			cubelet.setOpacity(0.1);
 		}
 		var tmp = {
 
