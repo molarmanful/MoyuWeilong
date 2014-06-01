@@ -4,7 +4,7 @@ $(document).ready(function(){
   container.append( cube.domElement );
   cube.cubelet.forEach(function(cubelet){
     if(cubelet.type = 'core' || cubelet.type = 'center') {
-      $(cubelet).remove();
+      $(this).remove();
     }
   });
   $('button').click(function(){
