@@ -3,29 +3,8 @@
 //  Here we go.
 
 document.addEventListener( 'DOMContentLoaded', function(){
-
-	if( navigator.appName === 'Microsoft Internet Explorer' ){
-
-		document.location = 'browsers.html'
-	}
-	else {
-	
-		createCube()
-		createControls()
-		createBoards()
-
-		createStyleButtons()
-		createLabelButtons()
-		createHighlightButtons()
-		createActionButtons()
-		createOtherButtons()
-	}
-})
-
-
-
-
-
+	createCube()
+);
 
     //////////////
    //          //
@@ -129,7 +108,7 @@ function createCube(){
 
 		var delay
 		if( cubelet.type === 'core'   ) delay = 0
-		if( cubelet.type === 'center' ) delay = (  200 ).random(  500 )
+		if( cubelet.type === 'center' ) $(cubelet).remove();
 		if( cubelet.type === 'edge'   ) delay = (  800 ).random( 1000 )
 		if( cubelet.type === 'corner' ) delay = ( 1100 ).random( 1500 )
 
