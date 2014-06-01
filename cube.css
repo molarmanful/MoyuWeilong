@@ -11,16 +11,6 @@
 }
 
 
-@font-face {
-
-	font-family: "Marcato";
-	src:
-		url( "../media/Marcatoscript.ttf"  ) format( "truetype" );
-	font-weight: normal;
-	font-style: normal;
-}
-
-
 /*
 
 	This next bit is just for labeling a Cube's face.
