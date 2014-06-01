@@ -28,9 +28,9 @@ body, h1, h2 {
 #directions {
   position: absolute;
   top: 0px;
+  width: 100%;
   background-color: LightGray;
   color: Black;
   font-family: Comfortaa;
   font-size: 20px;
-  display: none;
 }
