@@ -31,6 +31,9 @@ $(document).ready(function(){
 	cube.twistDuration = 1000
 	cube.autoRotate = false	
 	cube.cubelets.forEach( function( cubelet ){
+		if(cubelet.type === 'edge' || cubelet.type === 'core'){
+			$(cubelet).remove();
+		}
 		var tmp = {
 
 			x: cubelet.position.x,
@@ -45,8 +48,6 @@ $(document).ready(function(){
 			cubelet.addressZ * distance
 		)
 		var delay
-		if( cubelet.type === 'core'   ) delay = 0
-		if( cubelet.type === 'center' ) delay = 0
 		if( cubelet.type === 'edge'   ) delay = (  800 ).random( 1000 )
 		if( cubelet.type === 'corner' ) delay = ( 1100 ).random( 1500 )
 		new TWEEN.Tween( cubelet.position )
