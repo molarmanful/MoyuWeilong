@@ -2,7 +2,7 @@ $(document).ready(function(){
 	window.cube = new ERNO.Cube();
 	cube.cubelets.forEach(function(cubelet){
 		if(cubelet.type === 'core' || cubelet.type === 'center'){
-			$(cubelet).remove();
+			cubelet.setOpacity(0);
 		}
 	});
   var container = $( '#containerforcube' );
