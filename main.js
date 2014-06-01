@@ -59,11 +59,6 @@ $(document).ready(function(){
 			}, 1000 )
 			.delay( delay )
 			.easing( TWEEN.Easing.Quintic.Out )
-			.onComplete( function(){
-				cubelet.isTweening = false
-			})
-			.start( cube.time )
-		cubelet.isTweening = true
 	})
   var container = $( '#containerforcube' );
   container.append( cube.renderer.domElement );
