@@ -4,7 +4,8 @@
 
 document.addEventListener( 'DOMContentLoaded', function(){
 	createCube()
-);
+	
+)
 
     //////////////
    //          //
