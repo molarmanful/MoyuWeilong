@@ -67,11 +67,6 @@ $(document).ready(function(){
 
 		cubelet.isTweening = true
 	})
-	cube.cubelets.forEach( function( cubelet ){
-		if(cubelet.type === 'core' || cubelet.type === 'center'){
-			$(cubelet).remove();
-		}
-	})
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
   $('button').click(function(){
