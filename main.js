@@ -3,8 +3,8 @@ $(document).ready(function(){
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
   cube.cubelet.forEach(function(cubelet){
-    if(cubelet.type = 'core' || cubelet.type = 'center') {
-      $(this).remove();
+    if(cubelet.type === 'core' || cubelet.type === 'center') {
+      $(cubelet).remove();
     }
   });
   $('button').click(function(){
