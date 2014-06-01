@@ -62,9 +62,6 @@ $(document).ready(function(){
 				cubelet.isTweening = false
 			})
 			.start( cube.time )
-			if(cubelet.type === 'center' || cubelet.type === 'core'){
-				cubelet.setOpacity(0);
-			}
 		cubelet.isTweening = true
 	})
   var container = $( '#containerforcube' );
