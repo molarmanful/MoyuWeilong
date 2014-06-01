@@ -67,7 +67,7 @@ $(document).ready(function(){
 		cubelet.isTweening = true
 	})
   var container = $( '#containerforcube' );
-  container.append( cube.domElement );
+  container.append( cube.renderer.domElement );
   $('button').click(function(){
     $('#directions').slideToggle();
   });
