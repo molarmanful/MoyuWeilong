@@ -25,13 +25,20 @@ body, h1, h2 {
   height: 80%;
   width: 80%;
 }
-#directions {
+#dircon {
   position: absolute;
-  top: 0px;
+  bottom: 0px;
+}
+#directions {
   width: 100%;
   background-color: LightGray;
   color: Black;
   font-family: Comfortaa;
   font-size: 20px;
-  display: none;
+}
+button {
+  background-color: black;
+  color: white;
+  border: 3px solid white;
+  font-family: Comfortaa;
 }
