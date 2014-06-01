@@ -31,7 +31,7 @@ $(document).ready(function(){
 	cube.twistDuration = 1000
 	cube.autoRotate = false	
 	cube.cubelets.forEach( function( cubelet ){
-		if(cubelet.type === 'edge' || cubelet.type === 'core'){
+		if(cubelet.type === 'center' || cubelet.type === 'core'){
 			cubelet.setOpacity(0);
 		}
 		var tmp = {
