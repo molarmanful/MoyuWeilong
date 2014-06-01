@@ -98,7 +98,7 @@
 	are momentarily visible as the cube twists.
 
 */
-.cube /*.cubelet >*/ .face.faceIntroverted { background-color: DarkBlue; }
+.cube /*.cubelet >*/ .face.faceIntroverted { background-color: gray; }
 
 
 
