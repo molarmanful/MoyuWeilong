@@ -77,7 +77,7 @@ $(document).ready(function(){
 	});
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
-  $('button').click(function(){
+  $('#togdir').click(function(){
     $('#directions').slideToggle();
   });
 });
