@@ -1,6 +1,6 @@
-$(document).ready(function(){
-	createCube();
-});
+document.addEventListener( 'DOMContentLoaded', function(){
+	createCube()
+})
 
     //////////////
    //          //
