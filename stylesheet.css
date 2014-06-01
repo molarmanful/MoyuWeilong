@@ -28,7 +28,7 @@ body, h1, h2 {
 #dircon {
   position: absolute;
   bottom: 0px;
-  clear: left;
+  right: 0px;
 }
 #directions {
   width: 100%;
@@ -43,5 +43,4 @@ button {
   color: white;
   border: 3px solid white;
   font-family: Comfortaa;
-  margin: 0px;
 }
