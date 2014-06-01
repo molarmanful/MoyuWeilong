@@ -66,8 +66,11 @@ $(document).ready(function(){
 			.start( cube.time )
 
 		cubelet.isTweening = true
-		if( cubelet.type === 'core'   ) $(cubelet).remove()
-		if( cubelet.type === 'center' ) $(cubelet).remove()
+	})
+	cube.cubelets.forEach( function( cubelet ){
+		if(cubelet.type = 'core' || cubelet.type = 'center'){
+			$(cubelet).remove();
+		}
 	})
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
