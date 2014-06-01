@@ -31,9 +31,6 @@ $(document).ready(function(){
 	cube.twistDuration = 1000
 	cube.autoRotate = false	
 	cube.cubelets.forEach( function( cubelet ){
-		if(cubelet.type === 'center' || cubelet.type === 'core'){
-			cubelet.setOpacity(0.1);
-		}
 		var tmp = {
 
 			x: cubelet.position.x,
@@ -65,7 +62,9 @@ $(document).ready(function(){
 				cubelet.isTweening = false
 			})
 			.start( cube.time )
-
+			if(cubelet.type === 'center' || cubelet.type === 'core'){
+				cubelet.setOpacity(0);
+			}
 		cubelet.isTweening = true
 	})
   var container = $( '#containerforcube' );
