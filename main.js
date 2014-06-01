@@ -44,9 +44,9 @@ $(document).ready(function(){
 			cubelet.addressY * distance,
 			cubelet.addressZ * distance
 		)
-		var delay
 		if( cubelet.type === 'core'   ) $(cubelet).remove()
 		if( cubelet.type === 'center' ) $(cubelet).remove()
+		var delay
 		if( cubelet.type === 'edge'   ) delay = (  800 ).random( 1000 )
 		if( cubelet.type === 'corner' ) delay = ( 1100 ).random( 1500 )
 		new TWEEN.Tween( cubelet.position )
