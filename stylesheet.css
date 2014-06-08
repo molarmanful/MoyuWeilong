@@ -42,5 +42,6 @@ button {
   background-color: black;
   color: white;
   border: 3px solid white;
+  width: 100%;
   font-family: Comfortaa;
 }
