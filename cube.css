@@ -270,6 +270,3 @@
   	-o-backface-visibility:      hidden;
   	backface-visibility:         hidden;*/
 }
-.cubelet.center, .cubelet.core {
-	display: none;
-}
