@@ -72,7 +72,7 @@ $(document).ready(function(){
 	})
 	cube.cubelets.forEach(function(cubelet){
 		if(cubelet.type === 'core' || cubelet.type === 'center'){
-			cubelet.setOpacity(0);
+			cubelet.remove();
 		}
 	});
   var container = $( '#containerforcube' );
