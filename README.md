@@ -1,4 +1,5 @@
 VoidCube
 ========
 
-HTML5 Rubik's cube without a center, made with Rubik's.com/Chrome Cube Lab JS/CSS and iamthecu.be JS code.
+HTML5 version of the Chinese-made Rubik's Cube, made with Rubik's.com code. The real cube is known to be fast yet smooth.
+
