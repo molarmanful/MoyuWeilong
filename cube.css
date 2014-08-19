@@ -271,5 +271,5 @@
   	backface-visibility:         hidden;*/
 }
 div.sticker.white.stickerLogo {
-	background-image: url(http://thecubicle.us/images/brands/mfr_moyu.png);
+	background-image: url('http://thecubicle.us/images/brands/mfr_moyu.png');
 }
