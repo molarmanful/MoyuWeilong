@@ -69,7 +69,7 @@
 	position: absolute;
 	width:  1em;
 	height: 1em;
-	background-color: aqua;
+	background-color: black;
 	text-align: center;
 
 
@@ -189,12 +189,12 @@
 }
 
 
-.cube .sticker.red 	{ background: hotpink; 	}
+.cube .sticker.red 	{ background: maroon; 	}
 .cube .sticker.white 	{ background: black;	}
 .cube .sticker.blue 	{ background: #2052f3; 	}
-.cube .sticker.green 	{ background: chartreuse; }
+.cube .sticker.green 	{ background: LightGreen; }
 .cube .sticker.orange 	{ background: orange; 	}
-.cube .sticker.yellow 	{ background: yellow; 	}
+.cube .sticker.yellow 	{ background: chartreuse; 	}
 
 
 /*
