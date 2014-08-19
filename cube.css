@@ -98,7 +98,7 @@
 	are momentarily visible as the cube twists.
 
 */
-.cube /*.cubelet >*/ .face.faceIntroverted { background-color: aqua; border: 3px solid black; }
+.cube /*.cubelet >*/ .face.faceIntroverted { background-color: Black; border: 5px solid black; }
 
 
 
@@ -190,7 +190,7 @@
 
 
 .cube .sticker.red 	{ background: maroon; 	}
-.cube .sticker.white 	{ background: black;	}
+.cube .sticker.white 	{ background: white;	}
 .cube .sticker.blue 	{ background: #2052f3; 	}
 .cube .sticker.green 	{ background: LightGreen; }
 .cube .sticker.orange 	{ background: orange; 	}
