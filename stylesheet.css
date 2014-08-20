@@ -3,9 +3,10 @@ html, body {
   height: 100%;
 }
 body {        
-  background-color: Gray;
+  background-color: black;
   vertical-align: top;
   overflow: hidden;
+  background-image: url('http://www.mogaanywhere.com/wp-content/uploads/2013/02/background-radial-gradient-darker-3.jpg') no-repeat;
 }
 body, h1, h2 {
   margin:  0;
