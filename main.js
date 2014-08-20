@@ -7,7 +7,7 @@ $(document).ready(function(){
   $('#togdir').click(function(){
   	$('#directions').slideToggle();
   });
-  $('changebgcolor').click(function(){
+  $('changecubebgcolor').click(function(){
   	if(white = true){
   		$('.cube .face').css('background-color', 'black');
   		var white = false;
