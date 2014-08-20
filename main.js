@@ -10,9 +10,11 @@ $(document).ready(function(){
   $('#changecubebgcolor').click(function(){
   	if(white == 'true'){
   		$('.face').css('background-color', 'black');
+  		$('.faceIntroverted').css('background-color', 'black');
   		var white = false;
   	} else {
   		$('.face').css('background-color', 'white');
+  		$('.faceIntroverted').css('background-color', 'black');
   		var white = true;
   	}
   });
