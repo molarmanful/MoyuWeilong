@@ -44,7 +44,6 @@
 	height: 1em;
 	position: absolute;
 	box-sizing: border-box;
-	border-radius: 15px;
 }
 
 
@@ -72,6 +71,7 @@
 	height: 1em;
 	background-color: black;
 	text-align: center;
+	border-radius: 15px;
 
 
 	-webkit-backface-visibility: hidden;
