@@ -11,10 +11,12 @@ $(document).ready(function(){
   	if(white == 'true'){
   		$('.face').css('background-color', 'black');
   		$('.faceIntroverted').css('background-color', 'black');
+  		$('.faceIntroverted').css('border-color', 'black');
   		var white = false;
   	} else {
   		$('.face').css('background-color', 'white');
   		$('.faceIntroverted').css('background-color', 'white');
+  		$('.faceIntroverted').css('border-color', 'white');
   		var white = true;
   	}
   });
