@@ -6,4 +6,12 @@ $(document).ready(function(){
   $('#togdir').click(function(){
     $('#directions').slideToggle();
   });
+  function rotate(object, axis, radians){
+  	var rotationmatrix = new THREE.Matrix4();
+  	rotationmatrix.makeRotationAxis(axis.normalize(), radians);
+  	rotationmatrix.multiplySelf(object.matrix);
+  	object.matrix = rotationmatrix;
+  	object.rotation.setEulerFromRotationMatrix(object.matrix);
+  }
+  rotate(cube, 'XYZ', 4)
 });
