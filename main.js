@@ -9,10 +9,10 @@ $(document).ready(function(){
   });
   $('changecubebgcolor').click(function(){
   	if(white = true){
-  		$('.cube .face').css('background-color', 'black');
+  		$('.face').css('background-color', 'black');
   		var white = false;
   	} else {
-  		$('.cube .face').css('background-color', 'white');
+  		$('.face').css('background-color', 'white');
   		var white = true;
   	}
   });
