@@ -14,7 +14,8 @@ $(document).ready(function(){
   		$('.faceIntroverted').css('background-color', 'white');
   		$('.faceIntroverted').css('border-color', 'gray');
   		var white = true;
-  	} else {
+  	}
+  	if(white == true){
   		$('.face').css('background-color', 'black');
   		$('.faceIntroverted').css('background-color', 'black');
   		$('.faceIntroverted').css('border-color', 'black');
