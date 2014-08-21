@@ -25,6 +25,6 @@ $(document).ready(function(){
   	cube.twist('mmeess');
   	cube.twist('mmeess');
   	cube.twist('meME');
-  	cube.twist('EMem');
+  	cube.twist('emEM');
   });
 });
