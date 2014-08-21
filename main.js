@@ -23,5 +23,12 @@ $(document).ready(function(){
   });
   function demo(){
   	cube.twist('xxxxyyyyzzzz');
+  	var timer = setInterval(function(){$('.text').text('I am the virtual Moyu Weilong.');}, 5000);
+  	cube.twist('mmeess');
+  	var timer = setInterval(function(){$('.text').text('I have cool stickers.');}, 5000);
+  	cube.twist('mmeess');
+  	var timer = setInterval(function(){$('.text').text('I am smooth, fast, and $15.');}, 5000);
+  	var timer = setInterval(function(){$('.text').text('I don\'t pop.');}, 5000);
+  	cube.twist('meME');
   }
 });
