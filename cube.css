@@ -191,11 +191,11 @@
 }
 
 
-.cube .sticker.red 	{ background: red; 	}
+.cube .sticker.red 	{ background: orange; 	}
 .cube .sticker.white 	{ background: white;	}
-.cube .sticker.blue 	{ background: #2052f3; 	}
-.cube .sticker.green 	{ background: chartreuse; }
-.cube .sticker.orange 	{ background: orange; 	}
+.cube .sticker.blue 	{ background: chartreuse; 	}
+.cube .sticker.green 	{ background: #2052f3; }
+.cube .sticker.orange 	{ background: red; 	}
 .cube .sticker.yellow 	{ background: yellow; 	}
 
 
