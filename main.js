@@ -8,7 +8,7 @@ $(document).ready(function(){
   	$('#directions').slideToggle();
   });
   $('#changecubebgcolor').click(function(){
-  	if(white == 0){
+  	if(white === 0){
   		$('.face').css('background-color', 'white');
   		$('.faceIntroverted').css('background-color', 'white');
   		$('.faceIntroverted').css('border-color', 'gray');
