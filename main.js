@@ -27,6 +27,8 @@ $(document).ready(function(){
   	cube.twist('meME');
   	cube.twist('emEM');
   	cube.twist('UFbLLUULLfBUULLu');
+  	cube.twist('UlluubFlluullBuf')
   	cube.twist('FLFuRUFFLLulBdbLLu');
+  	cube.twist('UllBDbLUllffurUflf');
   });
 });
