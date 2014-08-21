@@ -23,9 +23,12 @@ $(document).ready(function(){
   });
   $('#demo').click(function(){
   	cube.twist('mmeess');
+  	$('#demotext').text('I am the Moyu Weilong.');
   	cube.twist('mmeess');
+  	$('#demotext').text('I am smooth, fast, and $13.');
   	cube.twist('meME');
+  	$('#demotext').text('I am Chinese.');
   	cube.twist('MEme');
-  	
+  	$('#demotext').text('');
   });
 });
