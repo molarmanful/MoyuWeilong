@@ -1,6 +1,7 @@
 $(document).ready(function(){
 	window.cube = new ERNO.Cube();
 	cube.position.y = 0;
+	cube.twist('xxxxyyyyzzzzmmeessmmeess');
 	$('#changecubeblack').css('display', 'none');
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
