@@ -9,7 +9,7 @@ $(document).ready(function(){
   	$('#directions').slideToggle();
   });
   $('#changecubebgcolor').click(function(){
-  	if(white == 'true'){
+  	if(white == true){
   		$('.face').css('background-color', 'black');
   		$('.faceIntroverted').css('background-color', 'black');
   		$('.faceIntroverted').css('border-color', 'black');
