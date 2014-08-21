@@ -6,9 +6,14 @@ $(document).ready(function(){
   $('#togdir').click(function(){
   	$('#directions').slideToggle();
   });
-  $('#changecubebgcolor').click(function(){
+  $('#changecubewhite').click(function(){
   	$('.face').css('background-color', 'white');
   	$('.faceIntroverted').css('background-color', 'white');
   	$('.faceIntroverted').css('border-color', 'gray');
+  });
+  $('#changecubeblack').click(function(){
+  	$('.face').css('background-color', 'black');
+  	$('.faceIntroverted').css('background-color', 'black');
+  	$('.faceIntroverted').css('border-color', 'black');
   });
 });
