@@ -13,11 +13,12 @@ $(document).ready(function(){
   		$('.face').css('background-color', 'white');
   		$('.faceIntroverted').css('background-color', 'white');
   		$('.faceIntroverted').css('border-color', 'gray');
-  		var white = false;
+  		var white = true;
   	} else {
   		$('.face').css('background-color', 'black');
   		$('.faceIntroverted').css('background-color', 'black');
   		$('.faceIntroverted').css('border-color', 'black');
+  		var white = false;
   	}
   });
   var idleif = setInterval(idleact(), 1000);
