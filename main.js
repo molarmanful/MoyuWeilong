@@ -23,12 +23,12 @@ $(document).ready(function(){
   });
   $('#demo').click(function(){
   	cube.twist('xxxxyyyyzzzz');
-  	var timer = setInterval(function(){$('.text').text('I am the virtual Moyu Weilong.');}, 5000);
+  	$('.text').text('I am the virtual Moyu Weilong.');
   	cube.twist('mmeess');
-  	var timer = setInterval(function(){$('.text').text('I have cool stickers.');}, 5000);
+  	$('.text').text('I have cool stickers.');
   	cube.twist('mmeess');
-  	var timer = setInterval(function(){$('.text').text('I am smooth, fast, and $15.');}, 5000);
-  	var timer = setInterval(function(){$('.text').text('I don\'t pop.');}, 5000);
+  	$('.text').text('I am smooth, fast, and $15.');
+  	$('.text').text('I don\'t pop.');
   	cube.twist('meME');
   });
 });
