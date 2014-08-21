@@ -22,22 +22,10 @@ $(document).ready(function(){
   	$('#changecubeblack').css('display', 'none');
   });
   $('#demo').click(function(){
-  	cube.twist('xxxxyyyyzzzz');
-  	$('.text').text('I am the virtual Moyu Weilong.');
-  	setTimeout(function(){
-  		cube.twist('mmeess');
-	  	$('.text').text('I have cool stickers.');
-	  	setTimeout(function(){
-	  		cube.twist('mmeess');
-		  	$('.text').text('I am smooth, fast, and $15.');
-		  	setTimeout(function(){
-		  		$('.text').text('I don\'t pop.');
-		  		setTimeout(function(){
-		  			cube.twist('meME');
-		  		}, 5000);
-		  	}, 5000);
-		  	cube.twist('meME');
-	  	}, 5000);
-  	}, 5000);
+  	cube.twist('mmeess');
+  	cube.twist('mmeess');
+  	cube.twist('meME');
+  	cube.twist('MEme');
+  	
   });
 });
