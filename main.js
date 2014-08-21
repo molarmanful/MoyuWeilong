@@ -30,7 +30,7 @@ $(document).ready(function(){
   });
   function idleact(){
   	var time = time + 1;
-  	if(time == 30){
+  	if(time == 20){
   		cube.twist('mmeess');
   		var time = 0;
   	}
