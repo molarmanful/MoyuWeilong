@@ -21,7 +21,7 @@ $(document).ready(function(){
   	$('#changecubewhite').css('display', 'inline-block');
   	$('#changecubeblack').css('display', 'none');
   });
-  function demo(){
+  $('#demo').click(function(){
   	cube.twist('xxxxyyyyzzzz');
   	var timer = setInterval(function(){$('.text').text('I am the virtual Moyu Weilong.');}, 5000);
   	cube.twist('mmeess');
@@ -30,5 +30,5 @@ $(document).ready(function(){
   	var timer = setInterval(function(){$('.text').text('I am smooth, fast, and $15.');}, 5000);
   	var timer = setInterval(function(){$('.text').text('I don\'t pop.');}, 5000);
   	cube.twist('meME');
-  }
+  });
 });
