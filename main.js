@@ -28,7 +28,7 @@ $(document).ready(function(){
   $(document).keypress(function(){
   	var time = 0;
   });
-  idleact(){
+  function idleact(){
   	var time = time + 1;
   	if(time == 60){
   		cube.twist('mmeess');
