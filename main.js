@@ -2,7 +2,6 @@ $(document).ready(function(){
 	window.cube = new ERNO.Cube();
 	cube.position.y = 0;
 	var white = false;
-	var time = 0;
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
   $('#togdir').click(function(){
@@ -21,18 +20,4 @@ $(document).ready(function(){
   		var white = false;
   	}
   });
-  var idleif = setInterval(idleact(), 1000);
-  $(document).mousemove(function(){
-  	var time = 0;
-  });
-  $(document).keypress(function(){
-  	var time = 0;
-  });
-  function idleact(){
-  	var time = time + 1;
-  	if(time == 20){
-  		cube.twist('mmeess');
-  		var time = 0;
-  	}
-  }
 });
