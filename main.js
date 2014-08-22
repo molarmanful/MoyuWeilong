@@ -21,7 +21,7 @@ $(document).ready(function(){
   	$('#changecubewhite').css('display', 'inline-block');
   	$('#changecubeblack').css('display', 'none');
   });
-  $('#pattern button').click(function(){
-  	$('#pattern').fadeOut();
+  $('#patterntypes button').click(function(){
+  	$('#patterntypes').fadeOut();
   });
 });
