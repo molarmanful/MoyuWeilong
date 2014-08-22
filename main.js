@@ -22,6 +22,6 @@ $(document).ready(function(){
   	$('#changecubeblack').css('display', 'none');
   });
   $('#pattern button').click(function(){
-  	$('#pattern').css('display', 'none');
+  	$('#pattern').fadeOut();
   });
 });
