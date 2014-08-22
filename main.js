@@ -21,12 +21,7 @@ $(document).ready(function(){
   	$('#changecubewhite').css('display', 'inline-block');
   	$('#changecubeblack').css('display', 'none');
   });
-  $('#demo').click(function(){
-  	cube.twist('mmeess');
-  	cube.twist('mmeess');
-  	cube.twist('meME');
-  	cube.twist('emEM');
-  	cube.twist('ulufrrbRFUBBUbLuFURf');
-  	cube.twist('FrufUlBubbufrBRRFULU');
+  $('#pattern button').click(function(){
+  	$('#pattern').css('display', 'none');
   });
 });
