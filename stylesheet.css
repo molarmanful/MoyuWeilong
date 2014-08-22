@@ -27,7 +27,8 @@ body, h1, h2 {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 25px;
+  top: 20px;
+  right: 5px;
 }
 #dircon {
   position: absolute;
