@@ -20,16 +20,16 @@
             <div id="directions">
                 <h2>Moyu Weilong</h2>
                 <button id="scramble" onclick="cube.shuffle(20);">SCRAMBLE</button>
-                <button id="demo" onclick="$('#patterntypes').css('display', 'inline-block')">PATTERN TWISTS</button>
-                <div id="patterntypes" style="display: none">
-                    <button onclick="cube.twist('mmeess')">CHECKERS</button>
-                    <button onclick="cube.twist('meME')">OFF-CENTERED</button>
-                    <button onclick="cube.twist('UFblluullfBuullu')">CROSS</button>
+                <button id="changecubewhite">CHANGE TO WHITE</button>
+                <button id="changecubeblack">CHANGE TO BLACK</button>
+                <button id="demo" onclick="$('#patterntypes').fadeIn()">PATTERN TWISTS</button>
+                <div id="patterntypes" style="display: none; background-color: black">
+                    <button onclick="cube.twist('mmeess')">CHECKERS</button><br>
+                    <button onclick="cube.twist('meME')">OFF-CENTERED</button><br>
+                    <button onclick="cube.twist('UFblluullfBuullu')">CROSS</button><br>
                     <button onclick="">CUBE INSIDE A CUBE</button>
                     <button onclick="cube.twist('ulufrrbRFUBBUbLuFURf');">CUBE INSIDE A CUBE INSIDE A CUBE</button>
                 </div>
-                <button id="changecubewhite">CHANGE TO WHITE</button>
-                <button id="changecubeblack">CHANGE TO BLACK</button>
                 <h3>Directions</h3>
                 <p>You can drag with touch or mouse or keyboard:</p>
                 <ul>
