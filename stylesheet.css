@@ -26,7 +26,6 @@ body, h1, h2 {
 #containerforcube {
   height: 100%;
   width: 100%;
-  z-index: 0;
 }
 #dircon {
   position: absolute;
@@ -49,4 +48,5 @@ button {
 }
 #demotext {
   font-size: 100px;
+  z-index: 0;
 }
