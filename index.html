@@ -24,11 +24,11 @@
                 <button id="changecubeblack">CHANGE TO BLACK</button>
                 <button id="demo" onclick="$('#patterntypes').fadeIn()">PATTERN TWISTS</button>
                 <div id="patterntypes" style="display: none; background-color: black">
-                    <button onclick="cube.twist('mmeess')">CHECKERS</button>
-                    <button onclick="cube.twist('meME')">OFF-CENTERED</button>
-                    <button onclick="cube.twist('UFblluullfBuullU')">CROSS</button>
-                    <button onclick="cube.twist('FLFuRUFFLLulBdbLLU')">CUBE INSIDE A CUBE</button>
-                    <button onclick="cube.twist('ulufrrbRFUBBUbLuFURf');">CUBE INSIDE A CUBE INSIDE A CUBE</button>
+                    <button onclick="$('#patterntypes').fadeOut(); cube.twist('mmeess')">CHECKERS</button>
+                    <button onclick="$('#patterntypes').fadeOut(); cube.twist('meME')">OFF-CENTERED</button>
+                    <button onclick="$('#patterntypes').fadeOut(); cube.twist('UFblluullfBuullU')">CROSS</button>
+                    <button onclick="$('#patterntypes').fadeOut(); cube.twist('FLFuRUFFLLulBdbLLU')">CUBE INSIDE A CUBE</button>
+                    <button onclick="$('#patterntypes').fadeOut(); cube.twist('ulufrrbRFUBBUbLuFURf');">CUBE INSIDE A CUBE INSIDE A CUBE</button>
                 </div>
                 <h3>Directions</h3>
                 <p>You can drag with touch or mouse or keyboard:</p>
