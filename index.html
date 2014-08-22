@@ -22,10 +22,11 @@
                 <button id="scramble" onclick="cube.shuffle(20);">SCRAMBLE</button>
                 <button id="demo" onclick="$('#patterntypes').css('display', 'inline-block')">PATTERN TWISTS</button>
                 <div id="patterntypes" style="display: none">
-                    <button>CHECKERS</button>
-                    <button>OFF-CENTERED</button>
-                    <button>CUBE INSIDE A CUBE</button>
-                    <button>CUBE INSIDE A CUBE INSIDE A CUBE</button>
+                    <button onclick="cube.twist('mmeess')">CHECKERS</button>
+                    <button onclick="cube.twist('meME')">OFF-CENTERED</button>
+                    <button onclick="cube.twist('UFblluullfBuullu')">CROSS</button>
+                    <button onclick="">CUBE INSIDE A CUBE</button>
+                    <button onclick="cube.twist('ulufrrbRFUBBUbLuFURf');">CUBE INSIDE A CUBE INSIDE A CUBE</button>
                 </div>
                 <button id="changecubewhite">CHANGE TO WHITE</button>
                 <button id="changecubeblack">CHANGE TO BLACK</button>
