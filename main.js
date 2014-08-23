@@ -7,6 +7,22 @@ $(document).ready(function(){
   $('#togdir').click(function(){
   	$('#directions').slideToggle();
   });
+  $('#changecubeloose').click(function(){
+  	$('.sticker').css('height', '100%');
+  	$('.sticker').css('width', '100%');
+  	$('.face').css('height', '.88em');
+  	$('.face').css('width', '.88em');
+  	$('#changecubeloose').css('display', 'none');
+  	$('#changecubenorm').css('display', 'inline-block');
+  });
+  $('#changecubenorm').click(function(){
+  	$('.sticker').css('height', '98%');
+  	$('.sticker').css('width', '98%');
+  	$('.face').css('height', '1em');
+  	$('.face').css('width', '1em');
+  	$('#changecubeloose').css('display', 'inline-block');
+  	$('#changecubenorm').css('display', 'none');
+  });
   $('#changecubewhite').click(function(){
   	$('.face').css('background-color', 'white');
   	$('.faceIntroverted').css('background-color', 'white');
