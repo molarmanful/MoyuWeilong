@@ -1,8 +1,11 @@
 $(document).ready(function(){
-	window.cube = new ERNO.Cube();
-	cube.position.y = 0;
-	$('#changecubeblack').css('display', 'none');
-	$('#changecubenorm').css('display', 'none');
+  if ( self !== top ) {
+    $('#dircon').css('display', 'none');
+  }
+  window.cube = new ERNO.Cube();
+  cube.position.y = 0;
+  $('#changecubeblack').css('display', 'none');
+  $('#changecubenorm').css('display', 'none');
   var container = $( '#containerforcube' );
   container.append( cube.domElement );
   $('#togdir').click(function(){
