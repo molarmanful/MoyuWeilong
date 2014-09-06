@@ -2,6 +2,7 @@ $(document).ready(function(){
   if ( self !== top ) {
     $('#dircon').css('display', 'none');
   }
+  $('html').css('display', 'none').delay(500).fadeIn('slow');
   window.cube = new ERNO.Cube();
   cube.position.y = 0;
   $('#changecubeblack').css('display', 'none');
