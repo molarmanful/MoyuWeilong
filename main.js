@@ -10,6 +10,7 @@ $(document).ready(function(){
     clearInterval(idleInterval);
   });
   $('html').css('display', 'none').delay(500).fadeIn('slow');
+  $('3x3').css('display', 'none');
   window.cube = new ERNO.Cube();
   cube.position.y = 0;
   cube.twistDuration = 50;
@@ -51,6 +52,7 @@ $(document).ready(function(){
   	$('#changecubeblack').css('display', 'none');
   });
   $('#two').click(function(){
+  	$('demotext').text('MOYU LINGPO');
   	cube.edges.setRadius(-140);
 	cube.corners.setRadius(-60);
 	cube.centers.setRadius(-140);
@@ -58,10 +60,9 @@ $(document).ready(function(){
 	$('.cube').css('width', '150%');
 	$(this).css('display', 'none');
 	$('#three').css('display', 'inline-block');
-	$('#pop').fadeOut('fast');
-	$('#reassemble').fadeOut('fast');
   });
   $('#three').click(function(){
+  	$('demotext').text('MOYU WEILONG');
   	cube.edges.setRadius(0);
   	cube.centers.setRadius(0);
   	cube.corners.setRadius(0);
@@ -69,7 +70,6 @@ $(document).ready(function(){
   	$('.cube').css('width', '100%');
 	$(this).css('display', 'none');
 	$('#two').css('display', 'inline-block');
-	$('#pop').fadeIn('slow');
   });
 });
 function timerIncrement() {
