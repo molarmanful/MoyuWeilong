@@ -5,6 +5,7 @@ $(document).ready(function(){
   $('html').css('display', 'none').delay(500).fadeIn('slow');
   window.cube = new ERNO.Cube();
   cube.position.y = 0;
+  cube.twistDuration = 100;
   $('#changecubeblack').css('display', 'none');
   $('#changecubenorm').css('display', 'none');
   var container = $( '#containerforcube' );
