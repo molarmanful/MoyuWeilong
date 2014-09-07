@@ -10,7 +10,7 @@ $(document).ready(function(){
     clearInterval(idleInterval);
   });
   $('html').css('display', 'none').delay(500).fadeIn('slow');
-  $('three').css('display', 'none');
+  $('#three').css('display', 'none');
   window.cube = new ERNO.Cube();
   cube.position.y = 0;
   cube.twistDuration = 50;
