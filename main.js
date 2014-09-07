@@ -2,6 +2,13 @@ $(document).ready(function(){
   if ( self !== top ) {
     $('#dircon').css('display', 'none');
   }
+  var idleInterval = setInterval(timerIncrement, 10000);
+  $(document).mousemove(function (e) {
+    clearInterval(idleInterval);
+  });
+  $(document).keypress(function (e) {
+    clearInterval(idleInterval);
+  });
   $('html').css('display', 'none').delay(500).fadeIn('slow');
   window.cube = new ERNO.Cube();
   cube.position.y = 0;
@@ -44,3 +51,14 @@ $(document).ready(function(){
   	$('#changecubeblack').css('display', 'none');
   });
 });
+function timerIncrement() {
+  cube.autoRotate = true;
+  $(document).mousemove(function (e) {
+    clearInterval(idleInterval);
+    cube.autoRotate = false;
+  });
+  $(document).keypress(function (e) {
+    clearInterval(idleInterval);
+    cube.autoRotate = false;
+  });
+}
