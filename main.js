@@ -50,6 +50,27 @@ $(document).ready(function(){
   	$('#changecubewhite').css('display', 'inline-block');
   	$('#changecubeblack').css('display', 'none');
   });
+  $('#two').click(function(){
+  	cube.edges.setRadius(-140);
+	cube.corners.setRadius(-60);
+	cube.centers.setRadius(-140);
+	$('.cube').css('height', '150%');
+	$('.cube').css('width', '150%');
+	$(this).css('display', 'none');
+	$('#three').css('display', 'inline-block');
+	$('#pop').fadeOut('fast');
+	$('#reassemble').fadeOut('fast');
+  });
+  $('#three').click(function(){
+  	cube.edges.setRadius(0);
+  	cube.centers.setRadius(0);
+  	cube.corners.setRadius(0);
+  	$('.cube').css('height', '100%');
+  	$('.cube').css('width', '100%');
+	$(this).css('display', 'none');
+	$('#two').css('display', 'inline-block');
+	$('#pop').fadeIn('slow');
+  });
 });
 function timerIncrement() {
   cube.autoRotate = true;
