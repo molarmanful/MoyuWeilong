@@ -50,7 +50,7 @@ $(document).ready(function(){
   	$('#changecubeblack').css('display', 'none');
   });
   $('#two').click(function(){
-  	$('demotext').text('MOYU LINGPO');
+  	$('#demotext').text('MOYU LINGPO');
   	cube.edges.setRadius(-140);
 	cube.corners.setRadius(-60);
 	cube.centers.setRadius(-140);
@@ -60,7 +60,7 @@ $(document).ready(function(){
 	$('#three').css('display', 'inline-block');
   });
   $('#three').click(function(){
-  	$('demotext').text('MOYU WEILONG');
+  	$('#demotext').text('MOYU WEILONG');
   	cube.edges.setRadius(0);
   	cube.centers.setRadius(0);
   	cube.corners.setRadius(0);
