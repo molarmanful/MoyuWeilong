@@ -69,6 +69,9 @@ $(document).ready(function(){
 	$(this).css('display', 'none');
 	$('#two').css('display', 'inline-block');
   });
+  $('button').click(function(){
+  	$(this).blur();
+  });
 });
 function timerIncrement() {
   cube.autoRotate = true;
