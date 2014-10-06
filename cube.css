@@ -8,8 +8,8 @@
 .cube {
 	width:  100%;
 	height: 100%;
-	perspective: 500px !important;
-	-webkit-perspective: 500px !important;
+	perspective: 600px !important;
+	-webkit-perspective: 600px !important;
 }
 
 
