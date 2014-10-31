@@ -72,6 +72,46 @@ $(document).ready(function(){
   $('button').click(function(){
   	$(this).blur();
   });
+  $('#solve').click(function(){
+  	// update 'data-posit' when twisted
+	  cube.addEventListener('onTwistComplete', function (e) {
+		  var posit = '';
+		  var colormap = {};
+		  colormap[cube.up.cubelets[4].up.color.initial]       = 'U';
+		  colormap[cube.left.cubelets[4].left.color.initial]   = 'L';
+		  colormap[cube.front.cubelets[4].front.color.initial] = 'F';
+		  colormap[cube.right.cubelets[4].right.color.initial] = 'R';
+		  colormap[cube.back.cubelets[4].back.color.initial]   = 'B';
+		  colormap[cube.down.cubelets[4].down.color.initial]   = 'D';
+		  [8, 7, 6, 5, 4, 3, 2, 1, 0].forEach(function (i) {
+		    posit += colormap[cube.up.cubelets[i].up.color.initial];
+		  });
+		  [8, 7, 6, 5, 4, 3, 2, 1, 0].forEach(function (i) {
+		    posit += colormap[cube.right.cubelets[i].right.color.initial];
+		  });
+		  [8, 7, 6, 5, 4, 3, 2, 1, 0].forEach(function (i) {
+		    posit += colormap[cube.front.cubelets[i].front.color.initial];
+		  });
+		  [2, 5, 8, 1, 4, 7, 0, 3, 6].forEach(function (i) {
+		    posit += colormap[cube.down.cubelets[i].down.color.initial];
+		  });
+		  [6, 3, 0, 7, 4, 1, 8, 5, 2].forEach(function (i) {
+		    posit += colormap[cube.left.cubelets[i].left.color.initial];
+		  });
+		  [6, 3, 0, 7, 4, 1, 8, 5, 2].forEach(function (i) {
+		    posit += colormap[cube.back.cubelets[i].back.color.initial];
+		  });
+		  window.document.body.setAttribute('data-posit', posit);
+		});
+		// execute solution
+		window.addEventListener('message', function (e) {
+		  var data = e.data;
+		  if (data.solution) {
+		    cube.twistDuration = 100;
+		    cube.twist(data.solution);
+		  }
+		});
+  });
 });
 function timerIncrement() {
   cube.autoRotate = true;
@@ -84,43 +124,3 @@ function timerIncrement() {
     cube.autoRotate = false;
   });
 }
-(function () {
-  // update 'data-posit' when twisted
-  cube.addEventListener('onTwistComplete', function (e) {
-	  var posit = '';
-	  var colormap = {};
-	  colormap[cube.up.cubelets[4].up.color.initial]       = 'U';
-	  colormap[cube.left.cubelets[4].left.color.initial]   = 'L';
-	  colormap[cube.front.cubelets[4].front.color.initial] = 'F';
-	  colormap[cube.right.cubelets[4].right.color.initial] = 'R';
-	  colormap[cube.back.cubelets[4].back.color.initial]   = 'B';
-	  colormap[cube.down.cubelets[4].down.color.initial]   = 'D';
-	  [8, 7, 6, 5, 4, 3, 2, 1, 0].forEach(function (i) {
-	    posit += colormap[cube.up.cubelets[i].up.color.initial];
-	  });
-	  [8, 7, 6, 5, 4, 3, 2, 1, 0].forEach(function (i) {
-	    posit += colormap[cube.right.cubelets[i].right.color.initial];
-	  });
-	  [8, 7, 6, 5, 4, 3, 2, 1, 0].forEach(function (i) {
-	    posit += colormap[cube.front.cubelets[i].front.color.initial];
-	  });
-	  [2, 5, 8, 1, 4, 7, 0, 3, 6].forEach(function (i) {
-	    posit += colormap[cube.down.cubelets[i].down.color.initial];
-	  });
-	  [6, 3, 0, 7, 4, 1, 8, 5, 2].forEach(function (i) {
-	    posit += colormap[cube.left.cubelets[i].left.color.initial];
-	  });
-	  [6, 3, 0, 7, 4, 1, 8, 5, 2].forEach(function (i) {
-	    posit += colormap[cube.back.cubelets[i].back.color.initial];
-	  });
-	  window.document.body.setAttribute('data-posit', posit);
-	});
-	// execute solution
-	window.addEventListener('message', function (e) {
-	  var data = e.data;
-	  if (data.solution) {
-	    cube.twistDuration = 100;
-	    cube.twist(data.solution);
-	  }
-	});
-}());
