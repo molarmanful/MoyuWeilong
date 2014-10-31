@@ -106,7 +106,7 @@ $(document).ready(function(){
 		// execute solution
 		window.addEventListener('message', function (e) {
 		  var data = e.data;
-		  if (data.solution) {
+		  if (e.origin === 'http://gstatic.com' && data.solution) {
 		    cube.twistDuration = 100;
 		    cube.twist(data.solution);
 		  }
