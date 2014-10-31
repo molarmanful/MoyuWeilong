@@ -72,9 +72,6 @@ $(document).ready(function(){
   $('button').click(function(){
   	$(this).blur();
   });
-  $('#solve').click(function(){
-  	
-  });
 });
 function timerIncrement() {
   cube.autoRotate = true;
