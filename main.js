@@ -123,6 +123,6 @@ function dosolve(){
                 } else {
                         twist += e[0].toLowerCase();
                 }
-        });
+        }).join();
         cube.twist(twist);
 }
