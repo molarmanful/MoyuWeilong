@@ -114,7 +114,7 @@ function timerIncrement() {
 function dosolve(){
         scramblers['333'].initialize(null, Math);
         var twist = '';
-        var solution = scramblers['333'].solution(posit);
+        var solution = scramblers['333'].solution(document.body.getAttribute('data-posit'));
         console.log(solution);
         solution.trim().split(/\s+/).reverse().forEach(function(e) {
                 if (e.length === 2) {
