@@ -112,11 +112,8 @@ function timerIncrement() {
   });
 }
 function dosolve(){
-        scramblers['333'].initialize(null, Math);
-        var solution = scramblers['333'].solution($('body').attr('data-posit'));
-        console.log(solution);
         var twist = '';
-        solution.trim().split(/\s+/).reverse().forEach(function(e) {
+        $('body').attr('data-posit').trim().split(/\s+/).reverse().forEach(function(e) {
                 if (e.length === 2) {
                         if (e[1] === '2') {
                             twist += e[0] + e[0];
@@ -127,5 +124,5 @@ function dosolve(){
                         twist += e[0].toLowerCase();
                 }
         });
-        cube.twist(solution);
+        cube.twist(twist);
 }
