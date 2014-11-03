@@ -113,7 +113,7 @@ function timerIncrement() {
 }
 function dosolve(){
         var twist = '';
-        $('body').attr('data-posit').trim().split(/\s+/).reverse().forEach(function(e) {
+        document.body.getAttribute('data-posit').trim().split(/\s+/).reverse().forEach(function(e) {
                 if (e.length === 2) {
                         if (e[1] === '2') {
                             twist += e[0] + e[0];
