@@ -112,8 +112,11 @@ function timerIncrement() {
   });
 }
 function dosolve(){
+        scramblers['333'].initialize(null, Math);
         var twist = '';
-        document.body.getAttribute('data-posit').trim().split(/\s+/).reverse().forEach(function(e) {
+        var solution = scramblers['333'].solution(posit);
+        console.log(solution);
+        solution.trim().split(/\s+/).reverse().forEach(function(e) {
                 if (e.length === 2) {
                         if (e[1] === '2') {
                             twist += e[0] + e[0];
