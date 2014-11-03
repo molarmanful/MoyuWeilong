@@ -9,6 +9,8 @@ Compiled to Javascript using GWT.
 (There may be a lot of redundant code right now, but it's still really fast.)
 
  */
+ 
+ "use strict";
 if (typeof scramblers === "undefined") {
   var scramblers = {};
 }
