@@ -1,6 +1,5 @@
 var idleInterval = setInterval(timerIncrement, 10000);
 $(document).ready(function(){
-  scramblers['333'].initialize(null, Math);
   if ( self !== top ) {
     $('#dircon').css('display', 'none');
   }
@@ -114,6 +113,7 @@ function timerIncrement() {
 }
 function dosolve(){
 	var posit = document.body.getAttribute('data-posit');
+        scramblers['333'].initialize(null, Math);
         var solution = scramblers['333'].solution(posit);
         console.log(solution);
         var twist = '';
