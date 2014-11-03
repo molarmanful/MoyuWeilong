@@ -1,5 +1,20 @@
 var idleInterval = setInterval(timerIncrement, 10000);
 $(document).ready(function(){
+  scramblers['333'].initialize(null, Math);
+  if ( self !== top ) {
+    $('#dircon').css('display', 'none');
+  }
+  $(document).mousemove(function (e) {
+    clearInterval(idleInterval);
+  });
+  $(document).keypress(function (e) {
+    clearInterval(idleInterval);
+  });
+  $('html').css('display', 'none').delay(500).fadeIn('slow');
+  $('#three').css('display', 'none');
+  window.cube = new ERNO.Cube();
+  cube.position.y = 0;
+  cube.twistDuration = 50;
   // update 'data-posit' when twisted
         cube.addEventListener('onTwistComplete', function(e) {
         	var posit = '';
@@ -30,21 +45,6 @@ $(document).ready(function(){
         	});
         	window.document.body.setAttribute('data-posit', posit);
         });
-  scramblers['333'].initialize(null, Math);
-  if ( self !== top ) {
-    $('#dircon').css('display', 'none');
-  }
-  $(document).mousemove(function (e) {
-    clearInterval(idleInterval);
-  });
-  $(document).keypress(function (e) {
-    clearInterval(idleInterval);
-  });
-  $('html').css('display', 'none').delay(500).fadeIn('slow');
-  $('#three').css('display', 'none');
-  window.cube = new ERNO.Cube();
-  cube.position.y = 0;
-  cube.twistDuration = 50;
   $('#changecubeblack').css('display', 'none');
   $('#changecubenorm').css('display', 'none');
   var container = $( '#containerforcube' );
