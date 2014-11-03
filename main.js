@@ -112,9 +112,8 @@ function timerIncrement() {
   });
 }
 function dosolve(){
-	var posit = document.body.getAttribute('data-posit');
         scramblers['333'].initialize(null, Math);
-        var solution = scramblers['333'].solution(posit);
+        var solution = scramblers['333'].solution($('body').attr('data-posit'));
         console.log(solution);
         var twist = '';
         solution.trim().split(/\s+/).reverse().forEach(function(e) {
