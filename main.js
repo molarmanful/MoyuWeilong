@@ -95,7 +95,7 @@ $(document).ready(function(){
 	$('#two').css('display', 'inline-block');
   });
   $('#solve').click(function(){
-  	dosolve();
+  	cube.twist(dosolve());
   });
   $('button').click(function(){
   	$(this).blur();
@@ -112,7 +112,7 @@ function timerIncrement() {
     cube.autoRotate = false;
   });
 }
-function dosolve(){
+function dosolve(callback){
         var twist = '';
         var solution = scramblers['333'].solution(document.body.getAttribute('data-posit'));
         console.log(solution);
@@ -127,5 +127,6 @@ function dosolve(){
                         twist += e[0].toLowerCase();
                 }
         });
-        cube.twist(twist);
+        return twist;
+        callback;
 }
