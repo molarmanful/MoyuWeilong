@@ -10,6 +10,7 @@ $(document).ready(function(){
   $(document).keypress(function (e) {
     clearInterval(idleInterval);
   });
+  $('#solve').css('display', 'none');
   $('html').css('display', 'none').delay(500).fadeIn('slow');
   $('#three').css('display', 'none');
   window.cube = new ERNO.Cube();
@@ -95,7 +96,7 @@ $(document).ready(function(){
 	$('#two').css('display', 'inline-block');
   });
   $('#solve').click(function(){
-  	cube.twist(dosolve());
+  	
   });
   $('button').click(function(){
   	$(this).blur();
@@ -111,22 +112,4 @@ function timerIncrement() {
     clearInterval(idleInterval);
     cube.autoRotate = false;
   });
-}
-function dosolve(callback){
-        var twist = '';
-        var solution = scramblers['333'].solution(document.body.getAttribute('data-posit'));
-        console.log(solution);
-        solution.trim().split(/\s+/).reverse().forEach(function(e) {
-                if (e.length === 2) {
-                        if (e[1] === '2') {
-                            twist += e[0] + e[0];
-                        } else {
-                            twist += e[0];
-                        }
-                } else {
-                        twist += e[0].toLowerCase();
-                }
-        });
-        return twist;
-        callback;
 }
