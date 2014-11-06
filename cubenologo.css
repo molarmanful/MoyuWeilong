@@ -169,7 +169,6 @@
 	width:  98%;
 	height: 98%;
 	background-color: #F0F;
-	border-radius: 8px;
 	text-align: center;
 
 }
@@ -177,8 +176,8 @@
 
 .cube .sticker.red 	{ background: orange; 	}
 .cube .sticker.white 	{ background: white;	}
-.cube .sticker.blue 	{ background: chartreuse; 	}
-.cube .sticker.green 	{ background: #2052f3; }
+.cube .sticker.blue 	{ background: green; 	}
+.cube .sticker.green 	{ background: blue; }
 .cube .sticker.orange 	{ background: red; 	}
 .cube .sticker.yellow 	{ background: yellow; 	}
 
