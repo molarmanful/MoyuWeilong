@@ -15,14 +15,10 @@
 	This next bit is just for labeling a Cube's face.
 */
 .faceLabel {
-
 	display: none;
 	position: absolute;
 	font-size: 60px;
 	text-align: center;
-	font-family: Comfortaa;
-	text-shadow: 0 0 24px rgba( 0, 0, 0, 0.3 );
-	color: #FFF;
 }
 
 
@@ -237,7 +233,6 @@
 	height: 100%;
 	text-align: center;
 	color: #FFF;
-	font-family: Comfortaa;
 	font-size:   1em;
 	line-height: 1em;
 
