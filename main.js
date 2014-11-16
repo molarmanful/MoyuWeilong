@@ -1,6 +1,5 @@
 var idleInterval = setInterval(timerIncrement, 10000);
 $(document).ready(function(){
-  scramblers['333'].initialize(null, Math);
   if ( self !== top ) {
     $('#dircon').css('display', 'none');
   }
