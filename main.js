@@ -47,9 +47,9 @@ $(document).ready(function(){
   });
   $('#two').click(function(){
   	$('#demotext').text('MOYU LINGPO');
-  	cube.edges.setOpacity(0);
+  	cube.edges.setOpacity(0, 1);
 	cube.corners.setRadius(-60);
-	cube.centers.setOpacity(0);
+	cube.centers.setOpacity(0, 1);
 	$('.cube').css('height', '150%');
 	$('.cube').css('width', '150%');
 	$(this).css('display', 'none');
@@ -57,8 +57,8 @@ $(document).ready(function(){
   });
   $('#three').click(function(){
   	$('#demotext').text('MOYU WEILONG');
-  	cube.edges.setOpacity(1);
-  	cube.centers.setOpacity(1);
+  	cube.edges.setOpacity(1, 1);
+  	cube.centers.setOpacity(1, 1);
   	cube.corners.setRadius(0);
   	$('.cube').css('height', '100%');
   	$('.cube').css('width', '100%');
