@@ -175,13 +175,6 @@
 .cube .sticker.green 	{ background: orange; }
 .cube .sticker.orange 	{ background: yellow; 	}
 .cube .sticker.yellow 	{ background: green; 	}
-
-.gcdown { background: white; 	}
-.gcfront { background: blue;	}
-.gcright { background: red; 	}
-.gcleft { background: orange;   }
-.gcup { background: yellow; 	}
-.gcback { background: green; 	}
 /*
 	CUBELET IDs
 	Each Cubelet has a unique ID number from 0 to 26.
