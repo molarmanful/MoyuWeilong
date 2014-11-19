@@ -169,12 +169,12 @@
 }
 
 
-.cube .sticker.red 	{ background: red; 	}
-.cube .sticker.white 	{ background: white;	}
-.cube .sticker.blue 	{ background: blue; 	}
-.cube .sticker.green 	{ background: green; }
-.cube .sticker.orange 	{ background: orange; 	}
-.cube .sticker.yellow 	{ background: yellow; 	}
+.cube .sticker.red 	{ background: white; 	}
+.cube .sticker.white 	{ background: blue;	}
+.cube .sticker.blue 	{ background: red; 	}
+.cube .sticker.green 	{ background: orange; }
+.cube .sticker.orange 	{ background: yellow; 	}
+.cube .sticker.yellow 	{ background: green; 	}
 
 
 /*
