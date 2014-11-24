@@ -3,7 +3,7 @@
   /*   Cube   */
  /*          */
 /************/
-g-cube {
+:host(g-cube) {
 	height: 100%;
 	width: 100%;
 	position: absolute;
