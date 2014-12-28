@@ -125,8 +125,12 @@ g-cube, #cubecont {
 .purty .face.faceDown  { background-color: #C00; }
 .purty .face.faceLeft  { background-color: #070; }
 .purty .face.faceBack  { background-color: #CB0; }*/
-
-
+.white .face { background-color: #f9f9f9; }
+.yellow .face { background-color: Gold; }
+.blue .face { background-color: #000398; }
+.green .face { background-color: DarkGreen; }
+.red .face { background-color: Maroon; }
+.orange .face { background-color: #EE7600; }
 
 
 
