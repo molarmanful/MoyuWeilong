@@ -3,7 +3,7 @@
   /*   Cube   */
  /*          */
 /************/
-g-cube {
+g-cube, #cubecont {
 	height: 100%;
 	width: 100%;
 	position: relative;
