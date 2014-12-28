@@ -119,12 +119,6 @@ g-cube, #cubecont {
 .stickerless .face.faceDown  { background-color: White; }
 .stickerless .face.faceLeft  { background-color: Orange; }
 .stickerless .face.faceBack  { background-color: Green; }
-/*.purty .face.faceFront { background-color: #CCC; }
-.purty .face.faceUp    { background-color: #C30; }
-.purty .face.faceRight { background-color: #00A; }
-.purty .face.faceDown  { background-color: #C00; }
-.purty .face.faceLeft  { background-color: #070; }
-.purty .face.faceBack  { background-color: #CB0; }*/
 .white .face { background-color: #f9f9f9; }
 .white .sticker.white { background-color: black; }
 .yellow .face { background-color: Gold; }
@@ -132,7 +126,14 @@ g-cube, #cubecont {
 .green .face { background-color: DarkGreen; }
 .red .face { background-color: Maroon; }
 .orange .face { background-color: #EE7600; }
-
+.transparent .face {
+	opacity: 0.2;
+	filter: Alpha(opacity=20);
+	background-color: black;
+}
+.transparent .face > .wireframe {
+	display: initial;
+}
 
 
 
