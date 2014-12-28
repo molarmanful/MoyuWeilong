@@ -119,6 +119,7 @@ g-cube, #cubecont {
 .stickerless .face.faceDown  { background-color: White; }
 .stickerless .face.faceLeft  { background-color: Orange; }
 .stickerless .face.faceBack  { background-color: Green; }
+.stickerless /*.cubelet >*/ .face.faceIntroverted { border: 10px solid black; }
 .stickerless .face > .wireframe {
 	opacity: 1;
 }
@@ -145,6 +146,7 @@ g-cube, #cubecont {
 .transparent .face > .wireframe {
 	opacity: 0.5;
 }
+.transparent /*.cubelet >*/ .face.faceIntroverted { display: none; }
 
 
 
