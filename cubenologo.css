@@ -125,7 +125,6 @@ g-cube, #cubecont {
 .stickerless .face.faceBack  { background-color: Green; }
 .stickerless /*.cubelet >*/ .face.faceIntroverted { border: 10px solid black; }
 .white .face { background-color: #f9f9f9; }
-.white .sticker.white { background-color: black; }
 .yellow .face { background-color: Gold; }
 .blue .face { background-color: #000398; }
 .green .face { background-color: DarkGreen; }
