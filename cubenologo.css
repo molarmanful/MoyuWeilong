@@ -120,9 +120,6 @@ g-cube, #cubecont {
 .stickerless .face.faceLeft  { background-color: Orange; }
 .stickerless .face.faceBack  { background-color: Green; }
 .stickerless /*.cubelet >*/ .face.faceIntroverted { border: 10px solid black; }
-.stickerless .face > .wireframe {
-	opacity: 1;
-}
 .white .face { background-color: #f9f9f9; }
 .white .sticker.white { background-color: black; }
 .yellow .face { background-color: Gold; }
@@ -131,14 +128,12 @@ g-cube, #cubecont {
 .red .face { background-color: Maroon; }
 .orange .face { background-color: #EE7600; }
 .transparent .face {
-	opacity: 0.3;
+	background-color: rgba(0, 0, 0, 0.1);
 	-webkit-backface-visibility: visible;
   	-moz-backface-visibility:    visible;
   	-o-backface-visibility:      visible;
   	backface-visibility:         visible;
 }
-.transparent .face  { background-color: rgba(0, 0, 0, 0.10); }
-.transparent .sticker  { background-color: rgba(0, 0, 0, 1); }
 
 
 
