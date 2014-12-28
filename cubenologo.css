@@ -9,6 +9,9 @@ g-cube, #cubecont {
 	position: relative;
 	display: block;
 }
+#cubecont {
+	clear: both;
+}
 
 .cube {
 	width:  100%;
