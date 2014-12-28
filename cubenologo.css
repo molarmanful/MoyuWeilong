@@ -138,10 +138,6 @@ g-cube, #cubecont {
   	backface-visibility:         visible;
 }
 .transparent .face  { background-color: rgba(0, 0, 0, 0.10); }
-.transparent .face > .wireframe {
-	opacity: 0.5;
-}
-.transparent /*.cubelet >*/ .face.faceIntroverted { display: none; }
 
 
 
