@@ -137,12 +137,7 @@ g-cube, #cubecont {
   	-o-backface-visibility:      visible;
   	backface-visibility:         visible;
 }
-.transparent .face.faceFront { background-color: Blue; }
-.transparent .face.faceUp    { background-color: Yellow; }
-.transparent .face.faceRight { background-color: Red; }
-.transparent .face.faceDown  { background-color: White; }
-.transparent .face.faceLeft  { background-color: Orange; }
-.transparent .face.faceBack  { background-color: Green; }
+.transparent .face  { background-color: rgba(0, 0, 0, 0.10); }
 .transparent .face > .wireframe {
 	opacity: 0.5;
 }
