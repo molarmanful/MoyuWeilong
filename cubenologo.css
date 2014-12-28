@@ -127,19 +127,14 @@ g-cube, #cubecont {
 .red .face { background-color: Maroon; }
 .orange .face { background-color: #EE7600; }
 .transparent .face {
-	opacity: 0.2;
-	filter: Alpha(opacity=20);
-	background-color: black;
+	background-color: transparent;
 	-webkit-backface-visibility: visible;
   	-moz-backface-visibility:    visible;
   	-o-backface-visibility:      visible;
   	backface-visibility:         visible;
 }
 .transparent .face > .wireframe {
-	display: initial;
-}
-.transparent .sticker {
-	opacity: 1;
+	opacity: 0.5;
 }
 
 
