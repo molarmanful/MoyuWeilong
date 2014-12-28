@@ -120,7 +120,6 @@
 	Awwww.... Look at da purty colors...
 
 */
-.purty .face { opacity: 0.5; }
 .purty .face.faceFront { background-color: #FFF; }
 .purty .face.faceUp    { background-color: #E87000; }
 .purty .face.faceRight { background-color: #3D81F6; }
