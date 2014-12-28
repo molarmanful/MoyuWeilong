@@ -113,13 +113,12 @@ g-cube, #cubecont {
 /*
 	Awwww.... Look at da purty colors...
 */
-.purty .face { opacity: 0.5; }
-.purty .face.faceFront { background-color: #FFF; }
-.purty .face.faceUp    { background-color: #E87000; }
-.purty .face.faceRight { background-color: #3D81F6; }
-.purty .face.faceDown  { background-color: #DC422F; }
-.purty .face.faceLeft  { background-color: #009D54; }
-.purty .face.faceBack  { background-color: #F5B400; }
+.purty .face.faceFront { background-color: Blue; }
+.purty .face.faceUp    { background-color: Yellow; }
+.purty .face.faceRight { background-color: Red; }
+.purty .face.faceDown  { background-color: White; }
+.purty .face.faceLeft  { background-color: Orange; }
+.purty .face.faceBack  { background-color: Green; }
 /*.purty .face.faceFront { background-color: #CCC; }
 .purty .face.faceUp    { background-color: #C30; }
 .purty .face.faceRight { background-color: #00A; }
