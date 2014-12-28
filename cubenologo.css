@@ -113,6 +113,9 @@ g-cube, #cubecont {
 /*
 	Awwww.... Look at da purty colors...
 */
+.stickerless, .white, .yellow, .blue, .green, .orange, .yellow {
+	opacity: 1;
+}
 .stickerless .face.faceFront { background-color: Blue; }
 .stickerless .face.faceUp    { background-color: Yellow; }
 .stickerless .face.faceRight { background-color: Red; }
