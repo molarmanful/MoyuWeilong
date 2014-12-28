@@ -113,12 +113,12 @@ g-cube, #cubecont {
 /*
 	Awwww.... Look at da purty colors...
 */
-.purty .face.faceFront { background-color: Blue; }
-.purty .face.faceUp    { background-color: Yellow; }
-.purty .face.faceRight { background-color: Red; }
-.purty .face.faceDown  { background-color: White; }
-.purty .face.faceLeft  { background-color: Orange; }
-.purty .face.faceBack  { background-color: Green; }
+.stickerless .face.faceFront { background-color: Blue; }
+.stickerless .face.faceUp    { background-color: Yellow; }
+.stickerless .face.faceRight { background-color: Red; }
+.stickerless .face.faceDown  { background-color: White; }
+.stickerless .face.faceLeft  { background-color: Orange; }
+.stickerless .face.faceBack  { background-color: Green; }
 /*.purty .face.faceFront { background-color: #CCC; }
 .purty .face.faceUp    { background-color: #C30; }
 .purty .face.faceRight { background-color: #00A; }
@@ -126,6 +126,7 @@ g-cube, #cubecont {
 .purty .face.faceLeft  { background-color: #070; }
 .purty .face.faceBack  { background-color: #CB0; }*/
 .white .face { background-color: #f9f9f9; }
+.white .sticker.white { background-color: black; }
 .yellow .face { background-color: Gold; }
 .blue .face { background-color: #000398; }
 .green .face { background-color: DarkGreen; }
