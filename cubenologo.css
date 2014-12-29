@@ -136,7 +136,7 @@ g-cube, #cubecont {
 .orange .face { background-color: #EE7600; }
 .neon .face { background-color: chartreuse; }
 .transparent .face {
-	background-color: rgba(100, 100, 100, 0.1);
+	background-color: rgba(10, 10, 10, 0.1);
 	-webkit-backface-visibility: visible;
   	-moz-backface-visibility:    visible;
   	-o-backface-visibility:      visible;
