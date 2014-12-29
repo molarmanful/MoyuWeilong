@@ -97,7 +97,7 @@ g-cube, #cubecont {
 	visible when the cube is an untwisted state. Some introverted walls
 	are momentarily visible as the cube twists.
 */
-.cube /*.cubelet >*/ .face.faceIntroverted { background-color: Black; border: 5px solid black; }
+.cube /*.cubelet >*/ .face.faceIntroverted { background-color: transparent; }
 
 
 
@@ -116,6 +116,10 @@ g-cube, #cubecont {
 */
 .stickerless, .white, .yellow, .blue, .green, .orange, .yellow, .neon {
 	opacity: 1;
+	-webkit-backface-visibility: hidden;
+  	-moz-backface-visibility:    hidden;
+  	-o-backface-visibility:      hidden;
+  	backface-visibility:         hidden;
 }
 .stickerless .face.faceFront { background-color: Blue; }
 .stickerless .face.faceUp    { background-color: Yellow; }
