@@ -117,6 +117,9 @@ g-cube, #cubecont {
 .stickerless, .white, .yellow, .blue, .green, .orange, .yellow {
 	opacity: 1;
 }
+.stickerless .face.faceIntroverted, .white .face.faceIntroverted, .yellow .face.faceIntroverted, .blue .face.faceIntroverted, .green .face.faceIntroverted, .orange .face.faceIntroverted, .yellow .face.faceIntroverted {
+	display: initial;
+}
 .stickerless .face.faceFront { background-color: Blue; }
 .stickerless .face.faceUp    { background-color: Yellow; }
 .stickerless .face.faceRight { background-color: Red; }
@@ -136,6 +139,9 @@ g-cube, #cubecont {
   	-moz-backface-visibility:    visible;
   	-o-backface-visibility:      visible;
   	backface-visibility:         visible;
+}
+.transparent .face.faceIntroverted {
+	display: none;
 }
 
 
