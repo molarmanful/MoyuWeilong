@@ -114,11 +114,8 @@ g-cube, #cubecont {
 /*
 	Awwww.... Look at da purty colors...
 */
-.stickerless, .white, .yellow, .blue, .green, .orange, .yellow {
+.stickerless, .white, .yellow, .blue, .green, .orange, .yellow, .neon {
 	opacity: 1;
-}
-.stickerless .face.faceIntroverted, .white .face.faceIntroverted, .yellow .face.faceIntroverted, .blue .face.faceIntroverted, .green .face.faceIntroverted, .orange .face.faceIntroverted, .yellow .face.faceIntroverted {
-	display: initial;
 }
 .stickerless .face.faceFront { background-color: Blue; }
 .stickerless .face.faceUp    { background-color: Yellow; }
@@ -133,15 +130,13 @@ g-cube, #cubecont {
 .green .face { background-color: DarkGreen; }
 .red .face { background-color: Maroon; }
 .orange .face { background-color: #EE7600; }
+.neon .face { background-color: chartreuse; }
 .transparent .face {
-	background-color: rgba(0, 0, 0, 0.1);
+	background-color: rgba(200, 200, 200, 0.1);
 	-webkit-backface-visibility: visible;
   	-moz-backface-visibility:    visible;
   	-o-backface-visibility:      visible;
   	backface-visibility:         visible;
-}
-.transparent .face.faceIntroverted {
-	display: none;
 }
 
 
