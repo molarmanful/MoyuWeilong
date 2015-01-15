@@ -97,7 +97,7 @@ g-cube, #cubecont {
 	visible when the cube is an untwisted state. Some introverted walls
 	are momentarily visible as the cube twists.
 */
-.cube /*.cubelet >*/ .face.faceIntroverted { background-color: transparent; }
+.cube /*.cubelet >*/ .face.faceIntroverted { background-color: black; }
 
 
 
@@ -129,12 +129,19 @@ g-cube, #cubecont {
 .stickerless .face.faceBack  { background-color: Green; }
 .stickerless /*.cubelet >*/ .face.faceIntroverted { border: 10px solid black; }
 .white .face { background-color: #f9f9f9; }
+.white /*.cubelet >*/ .face.faceIntroverted { background-color: white; }
 .yellow .face { background-color: Gold; }
+.yellow /*.cubelet >*/ .face.faceIntroverted { background-color: gold; }
 .blue .face { background-color: #000398; }
+.blue /*.cubelet >*/ .face.faceIntroverted { background-color: #000398; }
 .green .face { background-color: DarkGreen; }
+.green /*.cubelet >*/ .face.faceIntroverted { background-color: DarkGreen; }
 .red .face { background-color: Maroon; }
+.red /*.cubelet >*/ .face.faceIntroverted { background-color: Maroon; }
 .orange .face { background-color: #EE7600; }
+.orange /*.cubelet >*/ .face.faceIntroverted { background-color: #ee7600; }
 .neon .face { background-color: chartreuse; }
+.neon /*.cubelet >*/ .face.faceIntroverted { background-color: chartreuse; }
 .transparent .face {
 	background-color: rgba(10, 10, 10, 0.1);
 	-webkit-backface-visibility: visible;
@@ -142,6 +149,7 @@ g-cube, #cubecont {
   	-o-backface-visibility:      visible;
   	backface-visibility:         visible;
 }
+.transparent /*.cubelet >*/ .face.faceIntroverted { background-color: rgba(10, 10, 10, 0.1); }
 
 
 
