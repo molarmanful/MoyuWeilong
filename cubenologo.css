@@ -131,8 +131,8 @@ g-cube, #cubecont {
 .white .face { background-color: #f9f9f9; }
 .white /*.cubelet >*/ .face.faceIntroverted { background-color: #f9f9f9; }
 .whitewblacksticker .face { background-color: #f9f9f9; }
-.whitewblacksticker /*.cubelet >*/ .face.faceIntroverted { background-color: #f9f9f9; }
-.whitewblacksticker /*.cubelet >*/ .sticker.white { background-color: black; }
+.whitewblackstickers /*.cubelet >*/ .face.faceIntroverted { background-color: #f9f9f9; }
+.whitewblackstickers .sticker.white { background-color: black; }
 .yellow .face { background-color: Gold; }
 .yellow /*.cubelet >*/ .face.faceIntroverted { background-color: gold; }
 .blue .face { background-color: #000398; }
