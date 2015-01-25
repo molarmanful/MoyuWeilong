@@ -263,6 +263,7 @@ g-cube, #cubecont {
 	font-size:   1em;
 	line-height: 1em;
 	top: 0;
+	left: 0;
 
 	/*-webkit-backface-visibility: hidden;
   	-moz-backface-visibility:    hidden;
