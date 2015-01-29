@@ -198,12 +198,12 @@ g-cube, #cubecont {
 }
 
 
-.cube .sticker.down 	{ background: white; 	}
-.cube .sticker.front 	{ background: blue;	}
-.cube .sticker.right 	{ background: red; 	}
-.cube .sticker.left 	{ background: orange; }
-.cube .sticker.up 	{ background: yellow; 	}
-.cube .sticker.back 	{ background: green; 	}
+.cube .sticker.red 	{ background: white; 	}
+.cube .sticker.white 	{ background: blue;	}
+.cube .sticker.blue 	{ background: red; 	}
+.cube .sticker.green 	{ background: orange; }
+.cube .sticker.orange 	{ background: yellow; 	}
+.cube .sticker.yellow 	{ background: green; 	}
 /*
 	CUBELET IDs
 	Each Cubelet has a unique ID number from 0 to 26.
