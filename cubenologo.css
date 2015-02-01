@@ -6,8 +6,8 @@
 g-cube, #cubecont {
 	height: 100%;
 	width: 100%;
-	position: absolute;
-	display: block;
+	position: relative;
+	float: left;
 }
 #cubecont {
 	clear: both;
