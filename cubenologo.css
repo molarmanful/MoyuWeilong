@@ -3,14 +3,14 @@
   /*   Cube   */
  /*          */
 /************/
-g-cube, #cubecont {
+g-cube, .cubecont {
 	height: 100%;
 	width: 100%;
 	position: absolute;
 	float: left;
 	display: block;
 }
-#cubecont {
+.cubecont {
 	clear: both;
 }
 g-shufflespeed, g-speed, g-scramble, g-algorithm, g-highlight, g-text, g-florian {
