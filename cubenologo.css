@@ -203,8 +203,7 @@ g-shufflespeed, g-speed, g-scramble, g-algorithm, g-highlight, g-text, g-florian
 
 }
 
-.oll .cubeletId-0 .faceLeft .sticker,.oll .cubeletId-0 .faceFront .sticker,.oll .cubeletId-1 .faceFront .sticker,.oll .cubeletId-2 .faceFront .sticker,.oll .cubeletId-2 .faceRight .sticker,.oll .cubeletId-11 .faceRight .sticker,.oll .cubeletId-20 .faceRight .sticker,.oll .cubeletId-20 .faceBack .sticker,.oll .cubeletId-19 .faceBack .sticker,.oll .cubeletId-18 .faceBack .sticker,.oll .cubeletId-18 .faceLeft .sticker,.oll .cubeletId-9 .faceLeft .sticker {
-	
+.oll .cubeletId-0 .faceLeft .sticker, .oll .cubeletId-0 .faceFront .sticker, .oll .cubeletId-1 .faceFront .sticker, .oll .cubeletId-2 .faceFront .sticker, .oll .cubeletId-2 .faceRight .sticker, .oll .cubeletId-11 .faceRight .sticker, .oll .cubeletId-20 .faceRight .sticker, .oll .cubeletId-20 .faceBack .sticker, .oll .cubeletId-19 .faceBack .sticker, .oll .cubeletId-18 .faceBack .sticker, .oll .cubeletId-18 .faceLeft .sticker, .oll .cubeletId-9 .faceLeft .sticker {
 	display: none;
 }
 
